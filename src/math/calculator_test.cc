@@ -12,6 +12,7 @@ TEST_F(CalculatorTest, Addition) {
     EXPECT_EQ(calc.Add(3, 4),   7);
     EXPECT_EQ(calc.Add(-5, 5),  0);
     EXPECT_EQ(calc.Add(0, 0),   0);
+    EXPECT_EQ(calc.Add(0, 1),   1);
 }
 
 TEST_F(CalculatorTest, Subtraction) {
